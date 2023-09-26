@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro+)>
+    <!ELEMENT libro (nombre, autor*, fechaDePublicacion?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT fechaDePublicacion (dia, mes, anio)>
+    <!ELEMENT dia (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT anio (#PCDATA)>
+]>
+<biblioteca>
+    <libro>
+        <nombre>"Pepito Grillo,Cenicienta"</nombre>
+        <autor>"Walt Disney"</autor>
+        <fechaDePublicacion>
+            <dia>12</dia>
+            <mes>Mayo</mes>
+            <anio>1940</anio>
+        </fechaDePublicacion>
+    </libro>
+</biblioteca>
