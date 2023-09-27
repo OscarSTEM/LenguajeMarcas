@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE carta [
+    <!ELEMENT carta (plato+)>
+    <!ELEMENT plato (nombrePlato, descripcion, alergenos*, ingrediente*)>
+    <!ELEMENT nombrePlato (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT alergenos (#PCDATA)*>
+    <!ELEMENT ingrediente (nombre, cantidad, UnidadDeMedida)+                                                                   >
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT cantidad (#PCDATA)>
+    <!ELEMENT UnidadDeMedida (#PCDATA)>
+]>
+
+<carta>
+    <plato>
+        <nombrePlato>Pizza</nombrePlato>
+        <descripcion>23cm</descripcion>
+        <alergenos>Pinia</alergenos>
+        <ingrediente>
+        <nombre>Oregano</nombre>
+        <cantidad>2</cantidad>
+        <UnidadDeMedida>Gramos</UnidadDeMedida>
+        </ingrediente>
+    </plato>
+</carta>

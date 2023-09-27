@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciudades>
+<ciudades_de_paises>
+<nombre>Nueva Delhi</nombre>
+<pais>India</pais>
+<continente>Asia</continente>
+</ciudades_de_paises>
+<ciudades_de_paises>
+<nombre>Lisboa</nombre>
+<pais>Portugal</pais>
+<continente>Europa</continente>
+</ciudades_de_paises>
+<ciudades_de_paises>
+<nombre>El Cairo</nombre>
+<pais>Egipto</pais>
+<continente>Africa</continente>
+</ciudades_de_paises>
+</ciudades>

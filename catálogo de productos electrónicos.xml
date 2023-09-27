@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogo>
+<producto>
+<nombre>Impresora</nombre>
+<descripcion>Imprimir documentos</descripcion>
+<precio>50</precio>
+<caracteristica tipo="color">Blanco y negro o color</caracteristica>
+</producto>
+<producto>
+<nombre>Microfono</nombre>
+<descripcion>Comunicacion</descripcion>
+<precio>70</precio>
+<caracteristica tipo="marca">Newskill Kaliope</caracteristica>
+</producto>
+</catalogo>
