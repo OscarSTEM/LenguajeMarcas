@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Oscar Manuel Benito Martin -->
+
+<!DOCTYPE pokedex [
+    <!ELEMENT pokedex (pokemon+)>
+    <!ELEMENT pokemon (nombre, tipo, habilidades, estadisticas, experiencia, legendario?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT tipos (type+)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT habilidad (habilidades+)>
+    <!ELEMENT habilidades (#PCDATA)>
+    <!ELEMENT estadisticas (vida, ataque, defensa)>
+    <!ELEMENT vida (#PCDATA)>
+    <!ELEMENT ataque (#PCDATA)>
+    <!ELEMENT defensa (#PCDATA)>
+    <!ELEMENT experiencia (#PCDATA)>
+    <!ELEMENT legendario EMPTY>
+]>
+
+<pokedex>
+    <pokemon>
+        <nombre>Pikachu</nombre>
+        <tipo>Electrico</tipo>
+        <habilidades>electricidad estatica, pararrayos</habilidades>
+        <estadisticas>
+            <vida>35</vida>
+            <ataque>55</ataque>
+            <defensa>40</defensa>
+        </estadisticas>
+        <experiencia>Medio</experiencia>
+        <legendario></legendario>
+    </pokemon> 
+</pokedex>
+    

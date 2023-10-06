@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE videojuegos [
+<!ELEMENT videojuegos (juego+)>
+<!ELEMENT juego (nombre,descripcion, fechaLanzamiento, desarrollador, distribuidor, generos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT desarrollador (#PCDATA)>
+<!ELEMENT distribuidor (#PCDATA)>
+<!ELEMENT fechaLanzamiento (dia, mes, anio)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT generos (genero+)>
+<!ELEMENT genero (nombreGenero, descripcionGenero?)>
+<!ELEMENT nombreGenero (#PCDATA)>
+<!ELEMENT descripcionGenero (#PCDATA)>
+]>
+
+<videojuegos>
+    <juego>
+        <nombre>Call of duty</nombre>
+        <descripcion>Shooter</descripcion>
+        <desarrollador>Treyarch</desarrollador>
+        <distribuidor>Game</distribuidor>
+<fechaLanzamiento>
+    <dia>12</dia>
+    <mes>Agosto</mes>
+    <anio>2005</anio>
+</fechaLanzamiento>
+<generos>
+    <genero>
+        <nombreGenero>Aventura</nombreGenero>
+        <descripcionGenero>Vive la guerra en primera persona</descripcionGenero>
+        </genero>
+        </generos>
+</juego>
+</videojuegos>
