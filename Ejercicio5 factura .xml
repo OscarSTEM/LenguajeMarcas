@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Unos programadores necesitan estructurar la información que intercambiarán 
+los ficheros de sus aplicaciones para lo cual han determinado los requisitos siguientes.
+Los ficheros deben tener un elemento <listafacturas>
+Dentro de la lista debe haber una o mas facturas.
+Las facturas tienen un atributo fecha que es optativo.
+Toda factura tiene un emisor, que es un elemento obligatorio y que debe tener un atributo cif 
+que es obligatorio. Dentro de emisor debe haber un elemento nombre, que es obligatorio 
+y puede o no haber un elemento volumenventas.
+Toda factura debe tener un elemento pagador, 
+el cual tiene exactamente la misma estructura que emisor.
+Toda factura tiene un elemento importe.-->
+<!DOCTYPE listafacturas [
+    <!ELEMENT listafacturas (factura+)>
+    <!ELEMENT factura (emisor)>
+    <!ATTLIST factura fecha CDATA #IMPLIED>
+
+    <!ELEMENT emisor (nombreEmisor, volumenventasEmisor?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT vomulenventas (#PCDATA)>
+    <!ATTLIST emisor cif CDATA #REQUIRED>
+    
+    <!ELEMENT pagador (nombrePagador, volumenVentasPagador?)>
+    <!ELEMENT nombrePagador (#PCDATA)>
+    <!ELEMENT vomulenVentasPagador (#PCDATA)>
+    <!ATTLIST pagador cif CDATA #REQUIRED>
+
+    <!ELEMENT importe (#PCDATA)>
+
+
+
+
+]>
+<listafacturas>
+    <factura fecha="12/08/2111">
+        <emisor cif="1599">
+            <nombreEmisor>Jose Manuel</nombreEmisor>
+            <volumenVentasEmisor>100</volumenVentasEmisor>
+        </emisor>
+        <pagador cif= "1599">
+                <nombrePagador>Jaime</nombrePagadorr>
+                <vomulenVentasPagador>10</vomulenVentasPagador>
+            </pagador>
+            <importe>300</importe>
+    </factura>
+</listafacturas>
