@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE concesionarios [
+<!ELEMENT concesionarios (coche+)>
+<!ELEMENT coche (marca, modelo,color, numeroPuertas, plaza, electrico?, extra?)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT numeroPuertas (#PCDATA)>
+<!ELEMENT plaza (#PCDATA)>
+<!ELEMENT electrico EMPTY>
+<!ELEMENT extra (nombre, descripcion?, precio)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST color tipo CDATA "tamaño">
+]>
+
+<concesionarios>
+    <coche>
+        <marca>Nissan</marca>
+        <modelo>Skyline</modelo>
+        <color tipo="color">Azul</color>
+        <numeroPuertas>3</numeroPuertas>
+        <plaza>5</plaza>
+        <electrico></electrico>
+        <extra>
+            <nombre>N2O</nombre>
+            <descripcion>Aumenta la velocidad</descripcion>
+            <precio>153</precio>
+            </extra>
+    </coche>
+</concesionarios>
