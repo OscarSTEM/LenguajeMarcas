@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listacursos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="./Instituto.xsd">
+<listacursos>
+    <curso>
+        <alumno>
+            <dni></dni>
+            <nombre></nombre>
+            <apellido></apellido>
+            <asignatura>
+                <nombre></nombre>
+                <codigo cif="123456789"></codigo>
+                <horas></horas>
+            </asignatura>
+        </alumno>
+        <profesor>
+            <nrp></nrp>
+            <nombre></nombre>
+            <apellido></apellido>
+        </profesor>
+    </curso>
+</listacursos>
