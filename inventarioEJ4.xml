@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventarios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="./inventarioEJ4.xsd">
+   <inventario>
+      <lapiz>Carioca</lapiz>
+      <dureza>HB</dureza>
+      <cuaderno>
+         <numhojas></numhojas>
+         <estilo></estilo>
+      </cuaderno>
+      <boligrafo>
+         <precio></precio>
+         <color>
+            
+         </color>
+      </boligrafo>
+   </inventario>
+</inventarios>

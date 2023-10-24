@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="inventarios">
+    <xs:complexType>
+    <xs:sequence>
+            <xs:element name="inventario" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="lapiz" type="xs:string"/>
+                        <xs:element name="dureza" type="xs:string" minOccurs="0"/>
+                    </xs:sequence>
+                </xs:complexType>    
+            </xs:element>
+            <xs:element name="cuaderno">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="numhojas" type="xs:integer"/>
+                    <xs:element name="estilo" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            </xs:element>
+        <xs:element name="Boligrafo" minOccurs="0">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="precio" type="xs:integer"/>
+                    <xs:element name="color" type="xs:string"/>
+                </xs:sequence>
+    </xs:complexType>
+        </xs:element>  
+    </xs:sequence>
+    </xs:complexType>
+    </xs:element>  
+</xs:schema>
