@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listafacturas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="./Programadores.xsd">
+   <factura fecha="12/08/1998">
+      <nombre>Kingdom Hearts</nombre>
+      <descripcion>Matar sincorazones</descripcion>
+      <emisor>
+        <emisor cif="5225">
+        <nombre></nombre>
+        <volumenventas></volumenventas>
+        <importe></importe>
+
+        </emisor>
+    </factura>
+</listafacturas>
