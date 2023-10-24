@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Crea un fichero XML con XSD que cumpla los siguientes requisitos:
+#Elemento raíz videojuegos
+#videojuegos está compuesto de elementos videojuego
+#videojuego está compuesto por nombre, descripción, fecha de lanzamiento (día, mes y año), 
+#nombre equipo desarrollo y nombre de empresa distribuidora.
+#Además, videojuego tiene una lista géneros
+#géneros debe tener uno o más elementos género.
+#género está compuesto por nombre y descripción
+#La descripción de los géneros es opcional
+#La fecha de lanzamiento puede tener solo año (sin día ni mes)
+#Debe haber al menos un videojuego.-->
+
+<videojuegos xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="videojuegos.xsd">
+   <pagina>
+      <nombre>Abrirllave</nombre>
+      <descripcion>Tutoriales de informática.</descripcion>
+      <url>http://www.abrirllave.com/</url>
+   </pagina>
+   <pagina>
+      <nombre>Wikipedia</nombre>
+      <descripcion>La enciclopedia libre.</descripcion>
+      <url>http://www.wikipedia.org/</url>
+   </pagina>
+   <pagina>
+      <nombre>W3C</nombre>
+      <descripcion>World Wide Web Consortium.</descripcion>
+      <url>http://www.w3.org/</url>
+   </pagina>
+</marcadores>
