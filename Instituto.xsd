@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="listacursos">
+    <xs:element name="listacursos">
     <xs:complexType>
       <xs:sequence>
         <xs:element name="curso" maxOccurs="unbounded">
@@ -13,5 +13,9 @@
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
-
+      </xs:sequence>
+    </xs:complexType>
+      </xs:sequence>
+  </xs:element>          
+</xs:schema>
                 
