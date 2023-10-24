@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listacompras xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="./videojuegos7.xsd">
+   <venta>
+      <ventaacredito></ventaacredito>
+      <fechaFinDePago></fechaFinDePago>
+      <cantidad></cantidad>
+      <ventainmediata>
+         <divisa></divisa>
+      </ventainmediata>
+    </venta>
+</listacompras>
