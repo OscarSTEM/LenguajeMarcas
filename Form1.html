@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+</head>
+<body>
+    <form action="Form.php" method="post"></form>
+    <fieldset>
+        <legend>Indique sus preferencias, por favor</legend>
+        
+        <label for="inputFecha">Elija una fecha: </label>
+        <input type="date" id="inputFecha" name="inputFecha"><br>
+
+        <label for="inputFichero">Elija un fichero: </label>
+        <input type="file"><br>
+
+        <input type="radio" id="radioAMD" name="programa" value="AMD">
+        <label for="radioAMD"> AMD </label>
+
+        <input type="radio" id="radioIntel i5" name="programa" value="Intel i5">
+        <label for="radioIntel i5"> Intel i5 </label>
+
+        <input type="radio" id="radioIntel i7" name="programa" value="Intel i7">
+        <label for="radioIntel i7"> Intel i7 </label>
+    </fieldset> 
+    <fieldset>
+        <legend>Indique sus preferencias, por favor</legend>
+
+        <input type="radio" id="radioMatematicas" name="asignatura" value="Matematicas">
+        <label for="radioMatematicas"> Matematicas </label>
+        
+        <input type="radio" id="radioHistoria" name="asignatura" value="Historia">
+        <label for="radioHistoria"> Historia </label>
+
+        <input type="radio" id="radioGeografia" name="asignatura" value="Geografia">
+        <label for="radioGeografia"> Geografia </label>
+
+        <input type="radio" id="radioLengua" name="asignatura" value="Lengua">
+        <label for="radioLengua"> Lengua </label><br>
+
+        <label for="inputName"> Nombre: </label>
+        <input type="text" id="inputName" name="nombre" placeholder="Manolillo" required><br>
+
+        <label for="inputApellido"> Apellido: </label>
+        <input type="text" id="inputApellido" name="apellido" placeholder="Jimenez" required><br>
+
+        <label for="inputDireccion"> Direccion: </label>
+        <input type="text" id="inputDireccion" name="direccion" placeholder="C/Hierbabuena" required><br>
+        
+        <label for="inputColor">Elija un color: </label>
+        <input type="color" id="inputColor" name="inputColor" value="#8B008B"><br>
+
+        <textarea id="texto" name="text1" rows="4" cols="50" placeholder="Utilice este cuadro para escribir"></textarea><p></p>
+
+
+        <label for="inputElijaFecha"> Elija Fecha </label>
+        <input type="date" id="inputElijaFecha" name="ElijaFecha" placeholder="2024-01-24" value="2024-01-24" disabled><br>
+        
+        <label for="inputIdioma">Elija un idioma: </label>
+        <select name="Idioma" id="selectIdioma">
+            <option value="Idioma">Ingles</option>
+            <option value="Idioma">Aleman</option>
+            <option value="Idioma">Ruso</option>
+            </select><br>
+
+            <label for="inputElijaHora"> Elija Hora: </label>
+            <input type="time" id="inputElijaHora" name="ElijaHora" min="08:00" max="20:00"><br>
+
+            <label for="inputFichero">Elija un fichero: </label>
+            <input type="file"><br>
+            <input type="checkbox" id="checkboxHombre" name="genero2" value="Hombre">
+        <label for="inputHombre"> Hombre </label><br>
+
+        <input type="checkbox" id="checkboxMujer" name="genero2" value="Mujer">
+        <label for="inputMujer"> Mujer </label><br>
+        
+        
+    </fieldset>   
+    <input type="submit"> 
+</body>
+</html>

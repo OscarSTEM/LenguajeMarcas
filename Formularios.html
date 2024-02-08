@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <!-- Los formularios son con form action -->
+    <form action="procesarformulario.php"> 
+        <h2>Input texto</h2>
+        <label for="inputName">Primer Nombre: </label> 
+        <input type="text" id="inputName" name="nombre">
+
+        <label for="inputEmail"> E-mail</label>
+        <input type="text" id="inputEmail" name="email">
+        <h2>Input Radio</h2>
+        <h3>Meter datos</h3>
+        <input type="radio" id="html" name="fav_language" value="html">
+        <label for="html">HTML </label><br>
+        <input type="radio" id="css" name="fav_language" value="css">
+        <label for="css">CSS </label><br>
+        <input type="radio" id="JavaScript" name="fav_language" value="JavaScript">
+        <label for="JavaScript">JavaScript </label><br>
+        <!-- El label enlaza, con que clickes en el nombre te mete en el recuadro -->
+        <html> Input CheckBox</html><br>
+        <input type="checkbox" name="vehicle1" id="vehicle1" value="bike">
+        <label for="vehicle1">I have a bike</label> <br>
+        <input type="checkbox" name="vehicle2" id="vehicle2" value="Car">
+        <label for="vehicle2">I have a car</label><br>
+        <input type="checkbox" name="vehicle3" id="vehicle3" value="">
+        <label for="vehicle"> I have boat </label>
+
+        <input type="submit">
+
+    </form>
+    
+</body>
+</html>
+<!-- <form action="procesarformulario.php"> 
+    <input type="text">
+    <input type="radio">
+    <input type="checkbox">
+
+
+    <input type="submit">
+</form> -->
