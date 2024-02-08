@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+</head>
+<body>
+    <form action="Form.php" method="post"></form>
+    <fieldset>
+        <legend> Rellenar </legend>
+        <input type="radio" id="radioIngles" name="idioma" value="Ingles">
+        <label for="radioIngles"> Ingles </label><br>
+
+        <input type="radio" id="radioAleman" name="idioma" value="Aleman">
+        <label for="radioAleman"> Aleman </label><br>
+
+        <input type="radio" id="radioFrances" name="idioma" value="Frances">
+        <label for="radioFrances"> Frances </label><br>
+
+        <select name="USB" id="selectUSB">
+            <option value="USB1">USB1</option>
+            <option value="USB2">USB2</option>
+            <option value="USB3">USB3</option>
+            
+        </select><br>
+
+            <label for="inputName"> Nombre: </label>
+            <input type="text" id="inputName" name="nombre"><br>
+
+            <label for="inputName"> Apellido: </label>
+            <input type="text" id="inputName" name="nombre"><br>
+    </fieldset>   
+    <fieldset>
+        <legend>Indique su preferencia, por favor</legend>
+        <select name="Genero" id="selectGenero" multiple>
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option> 
+            <option value="NC">Prefiero no decirlo</option> 
+        </select><br>
+
+
+        <input type="checkbox" id="checkboxHombre" name="genero2" value="Hombre">
+        <label for="inputHombre"> Hombre </label><br>
+
+        <input type="checkbox" id="checkboxMujer" name="genero2" value="Mujer">
+        <label for="inputMujer"> Mujer </label><br>
+
+        <label for="inputElijaFecha"> Elija Fecha </label>
+        <input type="date" id="inputElijaFecha" name="ElijaFecha">
+    </fieldset>
+    <input type="submit">
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar Manuel Benito Martin_Formulario</title>
+</head>
+<body>
+        <from action="Form.php" method="post"></from>
+        <fieldset>
+            <legend>Datos personales:</legend>
+            <label for="inputName"> Nombre: </label>
+            <input type="text" id="inputName" name="nombre" placeholder="Mario Casas" required><br>
+
+            <label for="inputContrasenia"> Contraseña</label>
+            <input type="password" maxlength="15" placeholder="Contraseña" id="inputContrasenia" name="contrasenia" required> <br>
+
+            <label for="inputEmail"> Correo electrónico</label>
+            <input type="text" id="inputEmail" name="email" placeholder="marioerxulito@hotmail.com" required><br>
+
+            <label for="inputDireccion"> Direccion: </label>
+            <input type="text" id="inputDireccion" name="direccion" placeholder="C/Sobre el cielo, 3" required><br>
+        
+        <label for="inputProvincia">Provincia: </label>
+        <select name="provincia" id="selectProvincia">
+            <option value="provincia">Granada</option>
+            <option value="provincia">Cordoba</option>
+            <option value="provincia">Jaen</option>
+            </select><br>
+
+
+            <label for="inputComunidad"> Comunidad: </label>
+            <input type="text" id="inputComunidad" name="comunidad" placeholder="Andalucía" required><br>
+
+            <label for="inputFecha">Fecha de nacimiento: </label>
+            <input type="date" id="inputElijaFecha" name="ElijaFecha"  min="2006-01-01"><br>
+
+            <label for="inputComunidad"> Selecciona nacionalidad: </label><br>
+            
+            <input type="radio" id="radioEspañola" name="nacionalidad" value="Española">
+            <label for="radioEspañola"> Española </label>
+
+            <input type="radio" id="radioExtranjeraEU" name="nacionalidad" value="ExtranjeraEU">
+            <label for="radioExtranjeraEU"> Extranjera EU </label>
+            
+            <input type="radio" id="radioExtranjeraNoEU" name="nacionalidad" value="ExtranjeraNoEU">
+            <label for="radioExtranjeraNoEU"> Extranjera no EU </label><br>
+            
+            <label for="inputIdioma"> Selecciona idiomas conocidos: </label><br>
+            <select name="Genero" id="selectGenero" multiple>
+                <option value="Español">Español</option>
+                <option value="Ingles">Ingles</option> 
+                <option value="Frances">Frances</option>
+                <option value="Aleman">Aleman</option> 
+                <option value="Ruso">Ruso</option>  
+            </select><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Gustos e intereses</legend>
+            <label for="inputIntereses"> Intereses: </label>
+            
+            <input type="checkbox" id="checkboxDeporte" name="intereses" value="intereses">
+            <label for="inputDeporte"> Deporte </label>
+
+            <input type="checkbox" id="checkboxLectura" name="intereses" value="intereses">
+            <label for="inputLectura"> Lectura </label>
+
+            <input type="checkbox" id="checkboxMusica" name="intereses" value="intereses">
+            <label for="inputMusica"> Musica </label>
+
+            <input type="checkbox" id="checkboxViajes" name="intereses" value="intereses">
+            <label for="inputViajes"> Viajes </label>
+
+            <input type="checkbox" id="checkboxTecnologia" name="intereses" value="intereses">
+            <label for="inputTecnologia"> Tecnologia </label><br>
+
+            <label for="inputIntereses"> Selecciona foto para cabecera: </label><br>
+            <input type="file"><br>
+            
+            <label for="inputColor">Elija un color: </label>
+            <input type="color" id="inputColor" name="inputColor" value="#8B008B"><br>
+
+            
+        </fieldset>
+
+            <input type="checkbox" id="checkboxTerminos" name="terminos" value="terminos" required>
+            <label for="inputMujer"> Entiendo y acepto los  <a href="" > terminos y condiciones</a> </label><br>
+
+            <label for="inputAtibots"> Antibots (5+9): </label>
+            <input type="text" id="inputAntibots" name="nombre" required="14"><br>
+
+            <input type="submit">
+
+    
+</body>
+</html>
