@@ -1,0 +1,25 @@
+{
+    "inventario": [
+    {
+        "tipo": "lapiz",
+        "dureza": 20,
+        "color": "negro"
+    },
+    {
+        "tipo": "lapiz",
+        "dureza": 5,
+        "coloer": "gris"
+    },
+    {
+        "tipo": "cuaderno",
+        "numHojas": "50",
+        "estilo": "A4"
+    },
+    {
+        "tipo": "boligrafo",
+        "precio": 1.20,
+        "color": "azul"
+    } 
+    ]
+        
+}

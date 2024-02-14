@@ -1,0 +1,29 @@
+{
+    "facturas": [
+    {
+        "fecha": "2023-11-21",
+        "emisor":{
+        "NIF": "75783769S",
+        "nombre": "Endesa",
+        "direccion": "Calle Madrid 5"
+    },
+        "pagador": {
+        "NIF": "75933765R",
+        "nombre": "Elisa",
+        "direccion": "Calle Hierro 22",
+        "listaProductos": [
+            {
+                "ID": 1,
+                "nombre": "alcachofa para la ducha",
+                "precio": 120,
+                "cantidad": 6
+            }
+        ],
+        "precioFinal": 20.02
+        }
+    },
+    {
+        
+    }
+    ]
+}

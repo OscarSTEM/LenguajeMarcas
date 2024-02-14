@@ -1,0 +1,54 @@
+//  Ejercicio 1-Crea un fichero JSON que cumpla los siguientes requisitos:
+// Fichero objeto videojuegos.
+// videojuegos está compuesto de elementos videojuego.
+// videojuego está compuesto por nombre, descripción, fecha de lanzamiento, nombre equipo desarrollo y nombre de empresa distribuidora.
+// Además, videojuego tiene una lista de géneros.
+{
+    "videojuegos": [
+        {
+            "nombre": "Kingdom Hearts",
+            "precio": 2,
+            "descripcion": "Matar bichos",
+            "fechaLanzamiento": "1998-05-12",
+            "nombreEquipoDesarrollo": "Square Enix",
+            "nombreEmpresaDistribuidora": "Megantine"
+        },
+        {
+            "generos": [
+                "FPS",
+                "Accion"
+            ]
+        }
+    ]
+}
+// Ejercicio 4
+{
+    "cursos": [
+        {
+            "nombre": "DAW",
+            "Horas": 960,
+            "alumnos": [
+                {
+                    "DNI": "123456789",
+                    "NOMBRE": "Jose",
+                    "APELLIDOS": "Ortega",
+                    "asignaturas": [
+                        "BBDD",
+                        "PRGO",
+                        "ED"
+                    ]
+                },
+                {
+                    "DNI": "123456789",
+                    "NOMBRE": "Jose",
+                    "APELLIDOS": "Ortega",
+                    "asignaturas": [
+                        "BBDD",
+                        "PRGO",
+                        "ED"
+                    ]
+                }
+            ]
+        }
+    ]
+}

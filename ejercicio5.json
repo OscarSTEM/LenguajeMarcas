@@ -1,0 +1,37 @@
+{
+    "cursos": [
+        {
+            "alumnos": [
+                {
+                "DNI": "47589635T",
+                "nombre": "Carlos",
+                "apellido": "Mendez nuñez",
+                "listaAsignaturas": [
+                "Bases de datos",
+                "Programación",
+                "Lenguaje de Marcas",
+                "Sistemas informáticos",
+                "FOL"
+            ]
+                },
+                {
+                    "DNI": "75933765R",
+                    "nombre": "Elisa",
+                    "apellido": "Ortega Girard",
+                    "listaAsignaturas": [
+                    "Bases de datos",
+                    "Programación",
+                    "Lenguaje de Marcas",
+                    "Sistemas informáticos",
+                    "FOL"
+                ]
+                    }
+            ]
+            
+            
+            
+        }
+
+    ]
+    
+}
