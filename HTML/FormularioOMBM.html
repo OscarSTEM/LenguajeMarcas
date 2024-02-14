@@ -1,0 +1,74 @@
+<!-- Crea un formulario de registro
+que pida
+- Nombre
+- Apellidos
+- Email
+- Contraseña (investiga 
+input para contraseñas)
+- Edad 
+- Fecha de nacimiento (investiga
+input de fechas)
+- Un checkbox para elegir
+los cicnes que visitas
+(añade 4)
+- Un radio para indicar si 
+tiene algun tipo de descuento
+especial -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario OMBM</title>
+</head>
+<body>
+    <form action="FormularioOMBM.php" method="post"></form>
+    <label for="inputName"> Primer Nombre: </label>
+    <input type="text" id="inputName" name="nombre"><br>
+
+    <label for="inputApellido"> Primer Apellido: </label>
+    <input type="text" id="inputApellido" name="apellido"><br>
+    
+    <label for="inputContrasenia"> Contraseña</label>
+    <input type="password" id="inputContrasenia" name="contrasenia"><br>
+    
+    <label for="inputEmail"> E-mail</label>
+    <input type="email" id="inputEmail" name="email"><br>
+    
+    <label for="inputEdad"> Edad: </label>
+    <input type="number" id="inputEdad" name="edad"><br>
+    
+    <label for="inputFechaNacimiento"> FechaNacimiento: </label>
+    <input type="date" id="inputFechaNacimiento" name="FechaNacimiento">
+
+    <h2>Cines frecuentados</h2>
+    <input type="checkbox" name="Cine Motril" id="Cine Motril" value="Motril">
+    <label for="inputCine"> Cine Motril: </label><br>
+ 
+    <input type="checkbox" name="Cine Granada" id="Cine Granada" value="Granada">
+    <label for="inputCine"> Cine Granada: </label><br>
+
+    <input type="checkbox" name="Cine Kinepolis Nevada" id="Cine Kinepolis Nevada" value="Kinepolis Nevada">
+    <label for="inputCine"> Cine Kinepolis Nevada: </label><br>
+
+    <input type="checkbox" name="Cine Kinepolis Granaita" id="Cine Kinepolis Granaita" value="Kinepolis Granaita">
+    <label for="inputCine"> Cine Kinepolis Granaita: </label><br>
+
+    <h2>Descuento Especial</h2>
+    <input type="radio" id="DescuentoSi" name="discount" value="SI">
+    <label for="DescuentoSi">Si</label> <br>
+    <label for="inputDescuento"> Indicar descuento: </label>
+    <input type="number" id="inputDescuento" name="descuento"><br>
+    
+
+    <input type="radio" id="NoDescuento" name="discount" value="NO">
+    <label for="Descuento">No</label> <br>
+    
+    <input type="submit">
+
+    <!-- color  -->
+    <!-- <input type="color" name="favcolor" id="favcolor"> -->
+
+
+</body>
+</html>
