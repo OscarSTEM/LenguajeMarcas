@@ -1,0 +1,37 @@
+h1, h2{ /*el color del titulo y el texto*/
+    color: purple;
+    background-color: rgba(204, 0, 255, 0.137); /* el fondo del texto y el titulo*/
+
+}
+h2.h2tuneado{ /* El punto (.) es como decir "clase"
+    y el h2.h2tuneado solo cambia el h2*/
+    color: green;
+    background-color: yellow;
+}
+h2.fondonaranja{
+    background-color: orange;
+}
+p{ 
+    color: rgb(230, 36, 22);
+    /* border-style: solid;
+    border-color: rgba(53, 53, 3, 0.39);
+    border-width: thin; */
+     /* border: 2px solid red; */
+     border-left:5px solid red;
+     border-right:5px solid yellow;
+     border-radius: 5px;
+}
+/* Esto es el color del texto */
+#ptuneado1{
+    color:brown;
+    background-color: beige;
+}
+body{
+    background-image: url("https://media.tenor.com/aI28xhXa2pwAAAAM/noot-noot-meme.gif");
+    background-size: cover;
+}
+/*La almoadilla llama a la id*/
+/* h1{
+    color: rgb(32, 206, 218);
+} */
+/* al ser en cascada esto de aqui, coge el ultimo */

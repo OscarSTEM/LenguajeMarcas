@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+div{
+    height: 100%;
+    background-color: antiquewhite;
+    border: green 3px solid;
+    height: 500px;
+    
+}
+/* el div sirve para maquetar el contenido */
+
+#lorem{
+    text-align: justify;
+    text-align-last:center ;
+    border: red 2px solid;
+    width: 75%;
+    margin:auto;
+    /* outline-offset: 5px;
+    Hace el espacio del outline
+    outline: 3px rgb(71, 255, 246) solid;
+    el outline va por encima del borde */
+    /* el text-decoration: overline; sirve para subrayar */
+    /* text-decoration: none; a los enlaces les quita el subrayado */
+    /* font-size es el tamaño de la letra */
+}
+#mikasa{
+    
+    width: 75%;
+    max-width: 300px;
+    min-width: 100px;
+    
+}
+h1{
+    text-shadow: 2px 2px 5px red;
+    color:white;
+    text-align: center;
+    border: red 2px solid;
+    margin: auto;
+    letter-spacing: 10px;
+}
+/* el margin: auto te lo centra de forma horizontal */
